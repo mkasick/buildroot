@@ -21,7 +21,7 @@ NTP_CONF_OPTS = \
 	--with-shared \
 	--program-transform-name=s,,, \
 	--disable-tickadj \
-	--disable-debugging \
+	--enable-debugging \
 	--with-yielding-select=yes \
 	--disable-local-libevent
 
